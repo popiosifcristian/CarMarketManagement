@@ -1,11 +1,9 @@
 package ro.cmm.domain;
 
-import ro.cmm.domain.login.AccountType;
-
 /**
  * Created by Joseph Saturday, 15.04.2017 at 01:13.
  */
-public abstract class User extends AbstractModel {
+public class User extends AbstractModel {
 
     private String userName;//email
     private String password;
