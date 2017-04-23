@@ -5,6 +5,6 @@ package ro.cmm.domain;
  */
 public class BuyerAccount extends User {
     public BuyerAccount() {
-        this.setRole(AccountType.BUYER);
+        this.setRole(Role.BUYER);
     }
 }

@@ -8,7 +8,7 @@ public class User extends AbstractModel {
     private String userName;//email
     private String password;
 
-    private AccountType role;
+    private Role role;
 
     private String firstName;
     private String lastName;
@@ -31,11 +31,11 @@ public class User extends AbstractModel {
         this.password = password;
     }
 
-    public AccountType getRole() {
+    public Role getRole() {
         return role;
     }
 
-    public void setRole(AccountType role) {
+    public void setRole(Role role) {
         this.role = role;
     }
 

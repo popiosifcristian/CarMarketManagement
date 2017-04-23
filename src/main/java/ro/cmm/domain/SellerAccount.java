@@ -11,7 +11,7 @@ public class SellerAccount extends User {
     private List<Car> carList = new ArrayList<>();
 
     public SellerAccount() {
-        this.setRole(AccountType.SELLER);
+        this.setRole(Role.SELLER);
     }
 
     public List<Car> getCarList() {
